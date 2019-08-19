@@ -1,0 +1,17 @@
+:root {
+  --black: #000000;
+  --green: #66c245;
+}
+body {
+  font-family: sans-serif;
+  color: var(--green);
+  font-weight: 900;
+  background-color: var(--black);
+}
+
+.container {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
